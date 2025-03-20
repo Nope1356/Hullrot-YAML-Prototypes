@@ -84,14 +84,14 @@
       hidden: false
       altDisarm: false
       animation: WeaponArcFist
-      attackRate: 1.8
+      attackRate: 1.9
       autoAttack: true
       soundHit:
         collection: Punch
       damage:
         types:
           Blunt: 20
-          Structural: 20
+          Structural: 40
     - type: MeleeSpeech
     - type: UserInterface
       interfaces:
@@ -136,7 +136,7 @@
           color: "#40a7d7"
           shader: unshaded
     - type: Guardian
-      distanceAllowed: 15 
+      distanceAllowed: 20 
     # - type: HTN # Frontier
       # rootTask:
         # task: SimpleHumanoidHostileCompound
