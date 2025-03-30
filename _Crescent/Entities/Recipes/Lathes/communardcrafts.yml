@@ -292,3 +292,12 @@
     Steel: 750
     Plastic: 500
     Plasma: 200    
+
+- type: latheRecipe
+  id: ArmorPlateHomelandCraft
+  result: ArmorPlateHomeland
+  completetime: 5
+  materials:
+    Steel: 1000
+    Uranium: 500
+    Plastic: 750
